@@ -1,0 +1,1620 @@
+{
+ "width": 32,
+ "height": 32,
+ "terrain": [
+  [
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "snow",
+   "snow",
+   "snow",
+   "snow",
+   "snow",
+   "snow",
+   "snow",
+   "snow",
+   "rock",
+   "rock",
+   "rock",
+   "rock"
+  ],
+  [
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "rough",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "snow",
+   "snow",
+   "snow",
+   "snow",
+   "snow",
+   "snow",
+   "snow",
+   "snow",
+   "rock",
+   "rock",
+   "rock",
+   "rock"
+  ],
+  [
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "rough",
+   "rough",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "snow",
+   "snow",
+   "snow",
+   "snow",
+   "snow",
+   "snow",
+   "snow",
+   "rock",
+   "rock",
+   "rock",
+   "rock"
+  ],
+  [
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "rough",
+   "rough",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "snow",
+   "snow",
+   "snow",
+   "snow",
+   "snow",
+   "snow",
+   "snow",
+   "grass",
+   "rock",
+   "rock",
+   "rock"
+  ],
+  [
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "snow",
+   "snow",
+   "snow",
+   "snow",
+   "snow",
+   "snow",
+   "rock",
+   "rock",
+   "rock",
+   "rock"
+  ],
+  [
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "dirt",
+   "dirt",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "water",
+   "grass",
+   "snow",
+   "snow",
+   "snow",
+   "snow",
+   "snow",
+   "snow",
+   "rock",
+   "rock",
+   "rock",
+   "rock"
+  ],
+  [
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "dirt",
+   "dirt",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "water",
+   "water",
+   "water",
+   "grass",
+   "grass",
+   "snow",
+   "snow",
+   "snow",
+   "snow",
+   "snow",
+   "grass",
+   "rock",
+   "rock",
+   "rock"
+  ],
+  [
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "dirt",
+   "dirt",
+   "dirt",
+   "dirt",
+   "dirt",
+   "dirt",
+   "dirt",
+   "dirt",
+   "dirt",
+   "grass",
+   "water",
+   "water",
+   "water",
+   "water",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "rock",
+   "rock",
+   "rock",
+   "rock"
+  ],
+  [
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "dirt",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "dirt",
+   "water",
+   "water",
+   "water",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "rock",
+   "rock",
+   "rock"
+  ],
+  [
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "dirt",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "water",
+   "water",
+   "dirt",
+   "water",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "rock",
+   "rock",
+   "rock",
+   "rock"
+  ],
+  [
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "dirt",
+   "grass",
+   "grass",
+   "grass",
+   "water",
+   "water",
+   "water",
+   "water",
+   "dirt",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "rock",
+   "rock",
+   "rock"
+  ],
+  [
+   "grass",
+   "grass",
+   "grass",
+   "rough",
+   "grass",
+   "grass",
+   "dirt",
+   "grass",
+   "water",
+   "water",
+   "water",
+   "water",
+   "grass",
+   "grass",
+   "dirt",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "rough",
+   "rough",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "rock",
+   "rock",
+   "rock"
+  ],
+  [
+   "grass",
+   "rough",
+   "rough",
+   "rough",
+   "grass",
+   "grass",
+   "dirt",
+   "water",
+   "water",
+   "water",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "dirt",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "rough",
+   "rough",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "rock",
+   "rock",
+   "rock"
+  ],
+  [
+   "grass",
+   "grass",
+   "rough",
+   "rough",
+   "water",
+   "water",
+   "dirt",
+   "water",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "dirt",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "rough",
+   "rough",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "rock",
+   "rock",
+   "rock",
+   "rock"
+  ],
+  [
+   "grass",
+   "grass",
+   "water",
+   "water",
+   "water",
+   "water",
+   "dirt",
+   "dirt",
+   "dirt",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "dirt",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "rock",
+   "rock",
+   "water",
+   "water"
+  ],
+  [
+   "water",
+   "water",
+   "water",
+   "water",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "dirt",
+   "dirt",
+   "dirt",
+   "dirt",
+   "dirt",
+   "dirt",
+   "dirt",
+   "dirt",
+   "dirt",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "rock",
+   "water",
+   "rock"
+  ],
+  [
+   "water",
+   "water",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "dirt",
+   "dirt",
+   "dirt",
+   "dirt",
+   "dirt",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "rock",
+   "rock",
+   "rock",
+   "rock"
+  ],
+  [
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "dirt",
+   "dirt",
+   "grass",
+   "grass",
+   "grass",
+   "dirt",
+   "dirt",
+   "rough",
+   "grass",
+   "rough",
+   "lava",
+   "lava",
+   "lava",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "rock",
+   "water",
+   "rock"
+  ],
+  [
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "dirt",
+   "dirt",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "dirt",
+   "dirt",
+   "dirt",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "rock",
+   "rock",
+   "water",
+   "water"
+  ],
+  [
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "rough",
+   "grass",
+   "dirt",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "dirt",
+   "rough",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "rock",
+   "rock",
+   "rock"
+  ],
+  [
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "rough",
+   "rough",
+   "dirt",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "dirt",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "rock",
+   "rock",
+   "rock"
+  ],
+  [
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "rough",
+   "rough",
+   "dirt",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "dirt",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "rock",
+   "rock",
+   "rock"
+  ],
+  [
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "dirt",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "dirt",
+   "dirt",
+   "dirt",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "rock",
+   "rock",
+   "rock",
+   "rock"
+  ],
+  [
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "dirt",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "dirt",
+   "dirt",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "rock",
+   "rock",
+   "rock",
+   "rock"
+  ],
+  [
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "dirt",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "dirt",
+   "dirt",
+   "dirt",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "rock",
+   "rock",
+   "rock"
+  ],
+  [
+   "sand",
+   "sand",
+   "sand",
+   "sand",
+   "sand",
+   "sand",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "dirt",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "rock",
+   "rock",
+   "rock"
+  ],
+  [
+   "sand",
+   "sand",
+   "sand",
+   "sand",
+   "sand",
+   "sand",
+   "sand",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "dirt",
+   "dirt",
+   "dirt",
+   "grass",
+   "grass",
+   "rock",
+   "rock",
+   "rock"
+  ],
+  [
+   "sand",
+   "sand",
+   "sand",
+   "sand",
+   "sand",
+   "sand",
+   "sand",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "rock",
+   "rock",
+   "rock"
+  ],
+  [
+   "water",
+   "water",
+   "water",
+   "water",
+   "sand",
+   "sand",
+   "sand",
+   "sand",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "rock",
+   "rock",
+   "rock",
+   "rock"
+  ],
+  [
+   "sand",
+   "sand",
+   "sand",
+   "water",
+   "sand",
+   "sand",
+   "sand",
+   "sand",
+   "grass",
+   "grass",
+   "water",
+   "water",
+   "water",
+   "water",
+   "grass",
+   "grass",
+   "swamp",
+   "swamp",
+   "swamp",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "rock",
+   "rock",
+   "rock",
+   "rock"
+  ],
+  [
+   "sand",
+   "sand",
+   "sand",
+   "water",
+   "sand",
+   "sand",
+   "sand",
+   "sand",
+   "sand",
+   "grass",
+   "water",
+   "grass",
+   "grass",
+   "water",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "rock",
+   "rock",
+   "rock",
+   "rock"
+  ],
+  [
+   "sand",
+   "sand",
+   "sand",
+   "sand",
+   "sand",
+   "sand",
+   "sand",
+   "sand",
+   "sand",
+   "grass",
+   "water",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "grass",
+   "rock",
+   "rock",
+   "rock",
+   "rock"
+  ]
+ ],
+ "towns": [
+  {
+   "name": "Brightwall",
+   "faction": "castle",
+   "pos": [
+    5,
+    5
+   ],
+   "owner": "player",
+   "buildings": [
+    "Village Hall",
+    "Fort",
+    "Guard Post",
+    "Archery Range",
+    "Tavern"
+   ],
+   "garrison": [
+    [
+     "pikeman",
+     10
+    ]
+   ]
+  },
+  {
+   "name": "Gravenhold",
+   "faction": "necropolis",
+   "pos": [
+    26,
+    26
+   ],
+   "owner": "enemy",
+   "buildings": [
+    "Bone Shrine",
+    "Grave Fort",
+    "Cursed Barracks",
+    "Grave Yard",
+    "Tomb Tavern"
+   ],
+   "garrison": [
+    [
+     "skeleton",
+     14
+    ]
+   ]
+  },
+  {
+   "name": "Thornbury",
+   "faction": "castle",
+   "pos": [
+    15,
+    15
+   ],
+   "owner": "neutral",
+   "buildings": [
+    "Village Hall",
+    "Fort",
+    "Guard Post",
+    "Archery Range",
+    "Griffin Roost"
+   ],
+   "garrison": [
+    [
+     "pikeman",
+     15
+    ],
+    [
+     "archer",
+     8
+    ],
+    [
+     "swordsman",
+     3
+    ]
+   ]
+  },
+  {
+   "name": "Duskmere",
+   "faction": "necropolis",
+   "pos": [
+    10,
+    24
+   ],
+   "owner": "neutral",
+   "buildings": [
+    "Bone Shrine",
+    "Grave Fort",
+    "Cursed Barracks"
+   ],
+   "garrison": [
+    [
+     "skeleton",
+     18
+    ],
+    [
+     "walking_dead",
+     8
+    ]
+   ]
+  }
+ ],
+ "mines": [
+  {
+   "type": "gold_mine",
+   "resource": "gold",
+   "pos": [
+    9,
+    3
+   ]
+  },
+  {
+   "type": "gold_mine",
+   "resource": "gold",
+   "pos": [
+    3,
+    20
+   ]
+  },
+  {
+   "type": "gold_mine",
+   "resource": "gold",
+   "pos": [
+    22,
+    14
+   ]
+  },
+  {
+   "type": "gold_mine",
+   "resource": "gold",
+   "pos": [
+    20,
+    27
+   ]
+  },
+  {
+   "type": "wood_mine",
+   "resource": "wood",
+   "pos": [
+    2,
+    8
+   ]
+  },
+  {
+   "type": "wood_mine",
+   "resource": "wood",
+   "pos": [
+    25,
+    21
+   ]
+  },
+  {
+   "type": "ore_mine",
+   "resource": "ore",
+   "pos": [
+    11,
+    6
+   ]
+  },
+  {
+   "type": "ore_mine",
+   "resource": "ore",
+   "pos": [
+    17,
+    25
+   ]
+  },
+  {
+   "type": "mercury_mine",
+   "resource": "mercury",
+   "pos": [
+    24,
+    9
+   ]
+  },
+  {
+   "type": "sulfur_mine",
+   "resource": "sulfur",
+   "pos": [
+    6,
+    28
+   ]
+  },
+  {
+   "type": "crystal_mine",
+   "resource": "crystal",
+   "pos": [
+    25,
+    3
+   ]
+  },
+  {
+   "type": "gems_mine",
+   "resource": "gems",
+   "pos": [
+    13,
+    20
+   ]
+  }
+ ],
+ "creatures": [
+  {
+   "creature": "pikeman",
+   "count": 10,
+   "pos": [
+    10,
+    3
+   ]
+  },
+  {
+   "creature": "skeleton",
+   "count": 12,
+   "pos": [
+    12,
+    6
+   ]
+  },
+  {
+   "creature": "walking_dead",
+   "count": 12,
+   "pos": [
+    4,
+    20
+   ]
+  },
+  {
+   "creature": "archer",
+   "count": 10,
+   "pos": [
+    21,
+    14
+   ]
+  },
+  {
+   "creature": "griffin",
+   "count": 6,
+   "pos": [
+    23,
+    9
+   ]
+  },
+  {
+   "creature": "zombie",
+   "count": 12,
+   "pos": [
+    17,
+    24
+   ]
+  },
+  {
+   "creature": "monk",
+   "count": 4,
+   "pos": [
+    6,
+    27
+   ]
+  },
+  {
+   "creature": "swordsman",
+   "count": 6,
+   "pos": [
+    25,
+    4
+   ]
+  },
+  {
+   "creature": "wight",
+   "count": 8,
+   "pos": [
+    13,
+    21
+   ]
+  },
+  {
+   "creature": "lich",
+   "count": 3,
+   "pos": [
+    20,
+    26
+   ]
+  },
+  {
+   "creature": "wight",
+   "count": 9,
+   "pos": [
+    14,
+    15
+   ]
+  },
+  {
+   "creature": "swordsman",
+   "count": 6,
+   "pos": [
+    16,
+    15
+   ]
+  },
+  {
+   "creature": "black_knight",
+   "count": 2,
+   "pos": [
+    3,
+    31
+   ]
+  },
+  {
+   "creature": "vampire",
+   "count": 5,
+   "pos": [
+    13,
+    31
+   ]
+  },
+  {
+   "creature": "cavalier",
+   "count": 3,
+   "pos": [
+    30,
+    16
+   ]
+  }
+ ],
+ "artifacts": [
+  {
+   "name": "Wayfarer Boots",
+   "pos": [
+    3,
+    3
+   ]
+  },
+  {
+   "name": "Helm of Resolve",
+   "pos": [
+    8,
+    9
+   ]
+  },
+  {
+   "name": "Amulet of Embers",
+   "pos": [
+    18,
+    11
+   ]
+  },
+  {
+   "name": "Cloak of Whispers",
+   "pos": [
+    20,
+    19
+   ]
+  },
+  {
+   "name": "Blade of the Dawn",
+   "pos": [
+    11,
+    15
+   ]
+  },
+  {
+   "name": "Orb of Focus",
+   "pos": [
+    24,
+    17
+   ]
+  },
+  {
+   "name": "Pendant of Haste",
+   "pos": [
+    16,
+    2
+   ]
+  },
+  {
+   "name": "Plate of Four Virtues",
+   "pos": [
+    1,
+    30
+   ]
+  },
+  {
+   "name": "Emberbrand",
+   "pos": [
+    11,
+    31
+   ]
+  },
+  {
+   "name": "Band of Vigor",
+   "pos": [
+    31,
+    16
+   ]
+  }
+ ],
+ "heroes": [
+  {
+   "name": "Aldric",
+   "faction": "castle",
+   "owner": "player",
+   "pos": [
+    6,
+    5
+   ],
+   "attack": 2,
+   "defense": 2,
+   "power": 1,
+   "knowledge": 1,
+   "skills": {
+    "Logistics": 1
+   },
+   "spells": [
+    "Bless"
+   ],
+   "army": [
+    [
+     "pikeman",
+     10
+    ],
+    [
+     "archer",
+     5
+    ]
+   ]
+  },
+  {
+   "name": "Morvane",
+   "faction": "necropolis",
+   "owner": "enemy",
+   "pos": [
+    25,
+    26
+   ],
+   "attack": 2,
+   "defense": 1,
+   "power": 1,
+   "knowledge": 2,
+   "skills": {
+    "Earth Magic": 1
+   },
+   "spells": [
+    "Slow"
+   ],
+   "army": [
+    [
+     "skeleton",
+     20
+    ],
+    [
+     "walking_dead",
+     5
+    ]
+   ]
+  }
+ ],
+ "resources": [
+  {
+   "resource": "gold",
+   "amount": 750,
+   "pos": [
+    7,
+    7
+   ]
+  },
+  {
+   "resource": "wood",
+   "amount": 8,
+   "pos": [
+    4,
+    10
+   ]
+  },
+  {
+   "resource": "ore",
+   "amount": 8,
+   "pos": [
+    13,
+    4
+   ]
+  },
+  {
+   "resource": "crystal",
+   "amount": 4,
+   "pos": [
+    18,
+    13
+   ]
+  },
+  {
+   "resource": "gems",
+   "amount": 4,
+   "pos": [
+    22,
+    22
+   ]
+  },
+  {
+   "resource": "sulfur",
+   "amount": 4,
+   "pos": [
+    8,
+    27
+   ]
+  }
+ ],
+ "obelisks": [
+  {
+   "pos": [
+    8,
+    10
+   ],
+   "reveal_center": [
+    24,
+    24
+   ],
+   "radius": 7
+  },
+  {
+   "pos": [
+    19,
+    21
+   ],
+   "reveal_center": [
+    24,
+    5
+   ],
+   "radius": 6
+  }
+ ]
+}

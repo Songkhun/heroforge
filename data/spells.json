@@ -1,0 +1,222 @@
+{
+ "Slow": {
+  "name": "Slow",
+  "school": "earth",
+  "level": 1,
+  "mana_cost": 6,
+  "effect_type": "debuff",
+  "base_value": 3,
+  "target": "single",
+  "description": "Reduces target speed by 3 and lowers defense.",
+  "scales_with_power": true
+ },
+ "Stone Skin": {
+  "name": "Stone Skin",
+  "school": "earth",
+  "level": 1,
+  "mana_cost": 5,
+  "effect_type": "buff",
+  "base_value": 3,
+  "target": "single",
+  "description": "Increases a friendly stack's defense by 3.",
+  "scales_with_power": true
+ },
+ "Quicksand": {
+  "name": "Quicksand",
+  "school": "earth",
+  "level": 2,
+  "mana_cost": 8,
+  "effect_type": "special",
+  "base_value": 4,
+  "target": "tile",
+  "description": "Turns hexes into impassable quicksand.",
+  "scales_with_power": true
+ },
+ "Earthquake": {
+  "name": "Earthquake",
+  "school": "earth",
+  "level": 3,
+  "mana_cost": 20,
+  "effect_type": "special",
+  "base_value": 2,
+  "target": "all",
+  "description": "Shakes the battlefield, damaging enemy walls.",
+  "scales_with_power": true
+ },
+ "Implosion": {
+  "name": "Implosion",
+  "school": "earth",
+  "level": 5,
+  "mana_cost": 30,
+  "effect_type": "damage",
+  "base_value": 300,
+  "target": "single",
+  "description": "Crushes a single stack for 300+ damage.",
+  "scales_with_power": false
+ },
+ "Haste": {
+  "name": "Haste",
+  "school": "air",
+  "level": 1,
+  "mana_cost": 6,
+  "effect_type": "buff",
+  "base_value": 3,
+  "target": "single",
+  "description": "Increases a friendly stack's speed by 3.",
+  "scales_with_power": true
+ },
+ "Air Shield": {
+  "name": "Air Shield",
+  "school": "air",
+  "level": 2,
+  "mana_cost": 12,
+  "effect_type": "buff",
+  "base_value": 25,
+  "target": "single",
+  "description": "Reduces ranged damage taken by 25%.",
+  "scales_with_power": true
+ },
+ "Lightning Bolt": {
+  "name": "Lightning Bolt",
+  "school": "air",
+  "level": 2,
+  "mana_cost": 10,
+  "effect_type": "damage",
+  "base_value": 25,
+  "target": "single",
+  "description": "Strikes one stack for 25 x power damage.",
+  "scales_with_power": true
+ },
+ "Chain Lightning": {
+  "name": "Chain Lightning",
+  "school": "air",
+  "level": 4,
+  "mana_cost": 24,
+  "effect_type": "damage",
+  "base_value": 40,
+  "target": "single",
+  "description": "Lightning that jumps to 4 targets, halving each jump.",
+  "scales_with_power": true
+ },
+ "Dimension Door": {
+  "name": "Dimension Door",
+  "school": "air",
+  "level": 5,
+  "mana_cost": 25,
+  "effect_type": "special",
+  "base_value": 1,
+  "target": "tile",
+  "description": "Teleports the hero to a nearby tile on the adventure map.",
+  "scales_with_power": true
+ },
+ "Curse": {
+  "name": "Curse",
+  "school": "fire",
+  "level": 1,
+  "mana_cost": 6,
+  "effect_type": "debuff",
+  "base_value": 0,
+  "target": "single",
+  "description": "Enemy stack always deals minimum damage.",
+  "scales_with_power": true
+ },
+ "Bloodlust": {
+  "name": "Bloodlust",
+  "school": "fire",
+  "level": 1,
+  "mana_cost": 5,
+  "effect_type": "buff",
+  "base_value": 3,
+  "target": "single",
+  "description": "Increases a friendly stack's melee attack by 3.",
+  "scales_with_power": true
+ },
+ "Fireball": {
+  "name": "Fireball",
+  "school": "fire",
+  "level": 3,
+  "mana_cost": 15,
+  "effect_type": "damage",
+  "base_value": 25,
+  "target": "area",
+  "description": "Explodes on a hex and its neighbors for 25 x power damage.",
+  "scales_with_power": true
+ },
+ "Armageddon": {
+  "name": "Armageddon",
+  "school": "fire",
+  "level": 4,
+  "mana_cost": 24,
+  "effect_type": "damage",
+  "base_value": 50,
+  "target": "all",
+  "description": "Rains fire on ALL stacks for 50 x power damage.",
+  "scales_with_power": true
+ },
+ "Inferno": {
+  "name": "Inferno",
+  "school": "fire",
+  "level": 5,
+  "mana_cost": 16,
+  "effect_type": "damage",
+  "base_value": 100,
+  "target": "area",
+  "description": "A great firestorm dealing 100 fire damage in a wide area.",
+  "scales_with_power": false
+ },
+ "Bless": {
+  "name": "Bless",
+  "school": "water",
+  "level": 1,
+  "mana_cost": 5,
+  "effect_type": "buff",
+  "base_value": 0,
+  "target": "single",
+  "description": "Friendly stack always deals maximum damage.",
+  "scales_with_power": true
+ },
+ "Weakness": {
+  "name": "Weakness",
+  "school": "water",
+  "level": 2,
+  "mana_cost": 8,
+  "effect_type": "debuff",
+  "base_value": 3,
+  "target": "single",
+  "description": "Reduces an enemy stack's attack by 3.",
+  "scales_with_power": true
+ },
+ "Frost Ring": {
+  "name": "Frost Ring",
+  "school": "water",
+  "level": 3,
+  "mana_cost": 12,
+  "effect_type": "damage",
+  "base_value": 10,
+  "target": "area",
+  "description": "Ring of ice around a hex for 10 x power damage.",
+  "scales_with_power": true
+ },
+ "Blizzard": {
+  "name": "Blizzard",
+  "school": "water",
+  "level": 4,
+  "mana_cost": 20,
+  "effect_type": "damage",
+  "base_value": 10,
+  "target": "area",
+  "description": "Freezing storm: 10 x power damage and slows the area.",
+  "scales_with_power": true
+ },
+ "Resurrection": {
+  "name": "Resurrection",
+  "school": "water",
+  "level": 5,
+  "mana_cost": 20,
+  "effect_type": "special",
+  "base_value": 50,
+  "target": "single",
+  "description": "Revives 50 x power HP of fallen friendly units.",
+  "scales_with_power": true
+ }
+}

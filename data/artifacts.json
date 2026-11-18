@@ -1,0 +1,114 @@
+{
+ "Helm of Resolve": {
+  "slot": "head",
+  "bonus": {
+   "attack": 1,
+   "defense": 1
+  },
+  "cost": 2000
+ },
+ "Circlet of Insight": {
+  "slot": "head",
+  "bonus": {
+   "knowledge": 2
+  },
+  "cost": 1500
+ },
+ "Amulet of Embers": {
+  "slot": "neck",
+  "bonus": {
+   "power": 1
+  },
+  "cost": 1000
+ },
+ "Pendant of Haste": {
+  "slot": "neck",
+  "bonus": {
+   "speed": 1
+  },
+  "special": "+1 speed to all your stacks in battle",
+  "cost": 2000
+ },
+ "Gilded Breastplate": {
+  "slot": "torso",
+  "bonus": {
+   "defense": 2
+  },
+  "cost": 2000
+ },
+ "Plate of Four Virtues": {
+  "slot": "torso",
+  "bonus": {
+   "attack": 1,
+   "defense": 1,
+   "power": 1,
+   "knowledge": 1
+  },
+  "cost": 10000
+ },
+ "Cloak of Whispers": {
+  "slot": "cloak",
+  "bonus": {
+   "knowledge": 2
+  },
+  "cost": 1500
+ },
+ "Mantle of the Gale": {
+  "slot": "cloak",
+  "bonus": {
+   "speed": 1
+  },
+  "special": "+1 speed to all your stacks in battle",
+  "cost": 1000
+ },
+ "Blade of the Dawn": {
+  "slot": "hand",
+  "bonus": {
+   "attack": 2
+  },
+  "cost": 2000
+ },
+ "Emberbrand": {
+  "slot": "hand",
+  "bonus": {
+   "attack": 3
+  },
+  "cost": 3000
+ },
+ "Tower Shield": {
+  "slot": "hand",
+  "bonus": {
+   "defense": 2
+  },
+  "cost": 1500
+ },
+ "Band of Vigor": {
+  "slot": "ring",
+  "bonus": {
+   "hp": 1
+  },
+  "special": "+1 health to every unit in your army",
+  "cost": 2500
+ },
+ "Sage's Ring": {
+  "slot": "ring",
+  "bonus": {
+   "mana": 10
+  },
+  "cost": 1500
+ },
+ "Wayfarer Boots": {
+  "slot": "boot",
+  "bonus": {
+   "movement": 4
+  },
+  "cost": 1500
+ },
+ "Orb of Focus": {
+  "slot": "misc",
+  "bonus": {
+   "power": 2
+  },
+  "cost": 3000
+ }
+}

@@ -1,0 +1,1108 @@
+{
+ "castle": {
+  "Village Hall": {
+   "name": "Village Hall",
+   "faction": "castle",
+   "cost": {
+    "gold": 500
+   },
+   "prerequisite": [],
+   "effect": "+500 gold per day",
+   "provides_creature": null,
+   "category": "income",
+   "income_gold": 500,
+   "hall_level": 1,
+   "group": "Income"
+  },
+  "Town Hall": {
+   "name": "Town Hall",
+   "faction": "castle",
+   "cost": {
+    "gold": 2500
+   },
+   "prerequisite": [
+    "Village Hall"
+   ],
+   "effect": "+1000 gold per day",
+   "provides_creature": null,
+   "category": "income",
+   "income_gold": 1000,
+   "hall_level": 2,
+   "group": "Income"
+  },
+  "City Hall": {
+   "name": "City Hall",
+   "faction": "castle",
+   "cost": {
+    "gold": 5000,
+    "wood": 5,
+    "ore": 5
+   },
+   "prerequisite": [
+    "Town Hall",
+    "Marketplace"
+   ],
+   "effect": "+2000 gold per day",
+   "provides_creature": null,
+   "category": "income",
+   "income_gold": 2000,
+   "hall_level": 3,
+   "group": "Income"
+  },
+  "Capitol": {
+   "name": "Capitol",
+   "faction": "castle",
+   "cost": {
+    "gold": 10000,
+    "wood": 10,
+    "ore": 10
+   },
+   "prerequisite": [
+    "City Hall",
+    "Castle"
+   ],
+   "effect": "+4000 gold per day",
+   "provides_creature": null,
+   "category": "income",
+   "income_gold": 4000,
+   "hall_level": 4,
+   "group": "Income"
+  },
+  "Fort": {
+   "name": "Fort",
+   "faction": "castle",
+   "cost": {
+    "gold": 5000,
+    "wood": 20,
+    "ore": 20
+   },
+   "prerequisite": [],
+   "effect": "walls",
+   "provides_creature": null,
+   "category": "military",
+   "fort_level": 1,
+   "growth_bonus": 0,
+   "group": "Military"
+  },
+  "Citadel": {
+   "name": "Citadel",
+   "faction": "castle",
+   "cost": {
+    "gold": 2500,
+    "ore": 5
+   },
+   "prerequisite": [
+    "Fort"
+   ],
+   "effect": "+50% creature growth, arrow tower",
+   "provides_creature": null,
+   "category": "military",
+   "fort_level": 2,
+   "growth_bonus": 50,
+   "group": "Military"
+  },
+  "Castle": {
+   "name": "Castle",
+   "faction": "castle",
+   "cost": {
+    "gold": 5000,
+    "wood": 10,
+    "ore": 10
+   },
+   "prerequisite": [
+    "Citadel"
+   ],
+   "effect": "+100% creature growth, 3 arrow towers",
+   "provides_creature": null,
+   "category": "military",
+   "fort_level": 3,
+   "growth_bonus": 100,
+   "group": "Military"
+  },
+  "Mage Guild 1": {
+   "name": "Mage Guild 1",
+   "faction": "castle",
+   "cost": {
+    "gold": 2000,
+    "wood": 5,
+    "ore": 5
+   },
+   "prerequisite": [],
+   "effect": "Teaches level 1 spells",
+   "provides_creature": null,
+   "category": "magic",
+   "mage_level": 1,
+   "group": "Magic"
+  },
+  "Mage Guild 2": {
+   "name": "Mage Guild 2",
+   "faction": "castle",
+   "cost": {
+    "gold": 1000,
+    "wood": 5,
+    "ore": 5,
+    "mercury": 4,
+    "sulfur": 4,
+    "crystal": 4,
+    "gems": 4
+   },
+   "prerequisite": [
+    "Mage Guild 1"
+   ],
+   "effect": "Teaches level 2 spells",
+   "provides_creature": null,
+   "category": "magic",
+   "mage_level": 2,
+   "group": "Magic"
+  },
+  "Mage Guild 3": {
+   "name": "Mage Guild 3",
+   "faction": "castle",
+   "cost": {
+    "gold": 1000,
+    "wood": 5,
+    "ore": 5,
+    "mercury": 6,
+    "sulfur": 6,
+    "crystal": 6,
+    "gems": 6
+   },
+   "prerequisite": [
+    "Mage Guild 2"
+   ],
+   "effect": "Teaches level 3 spells",
+   "provides_creature": null,
+   "category": "magic",
+   "mage_level": 3,
+   "group": "Magic"
+  },
+  "Mage Guild 4": {
+   "name": "Mage Guild 4",
+   "faction": "castle",
+   "cost": {
+    "gold": 1000,
+    "wood": 5,
+    "ore": 5,
+    "mercury": 8,
+    "sulfur": 8,
+    "crystal": 8,
+    "gems": 8
+   },
+   "prerequisite": [
+    "Mage Guild 3"
+   ],
+   "effect": "Teaches level 4 spells",
+   "provides_creature": null,
+   "category": "magic",
+   "mage_level": 4,
+   "group": "Magic"
+  },
+  "Mage Guild 5": {
+   "name": "Mage Guild 5",
+   "faction": "castle",
+   "cost": {
+    "gold": 1000,
+    "wood": 5,
+    "ore": 5,
+    "mercury": 10,
+    "sulfur": 10,
+    "crystal": 10,
+    "gems": 10
+   },
+   "prerequisite": [
+    "Mage Guild 4"
+   ],
+   "effect": "Teaches level 5 spells",
+   "provides_creature": null,
+   "category": "magic",
+   "mage_level": 5,
+   "group": "Magic"
+  },
+  "Blacksmith": {
+   "name": "Blacksmith",
+   "faction": "castle",
+   "cost": {
+    "gold": 1000,
+    "ore": 5
+   },
+   "prerequisite": [],
+   "effect": "Buy war machines",
+   "provides_creature": null,
+   "category": "military",
+   "group": "Special"
+  },
+  "Tavern": {
+   "name": "Tavern",
+   "faction": "castle",
+   "cost": {
+    "gold": 500,
+    "wood": 5
+   },
+   "prerequisite": [],
+   "effect": "Morale +1 in defense, hire heroes",
+   "provides_creature": null,
+   "category": "special",
+   "morale": 1,
+   "group": "Special"
+  },
+  "Marketplace": {
+   "name": "Marketplace",
+   "faction": "castle",
+   "cost": {
+    "gold": 500,
+    "wood": 5
+   },
+   "prerequisite": [],
+   "effect": "Trade resources",
+   "provides_creature": null,
+   "category": "special",
+   "group": "Income"
+  },
+  "Resource Silo": {
+   "name": "Resource Silo",
+   "faction": "castle",
+   "cost": {
+    "gold": 5000,
+    "ore": 5
+   },
+   "prerequisite": [
+    "Marketplace"
+   ],
+   "effect": "+1 ore per day",
+   "provides_creature": null,
+   "category": "income",
+   "income_res": {
+    "ore": 1
+   },
+   "group": "Income"
+  },
+  "Shipyard": {
+   "name": "Shipyard",
+   "faction": "castle",
+   "cost": {
+    "gold": 2000,
+    "wood": 20
+   },
+   "prerequisite": [],
+   "effect": "Build ships (requires water adjacent to town)",
+   "provides_creature": null,
+   "category": "special",
+   "requires_water": true,
+   "group": "Special"
+  },
+  "Guard Post": {
+   "name": "Guard Post",
+   "faction": "castle",
+   "cost": {
+    "gold": 1000,
+    "ore": 5
+   },
+   "prerequisite": [
+    "Fort"
+   ],
+   "effect": "Recruit Pikeman (+20/week)",
+   "provides_creature": "pikeman",
+   "category": "dwelling",
+   "tier": 1,
+   "group": "Dwellings"
+  },
+  "Upgraded Guard Post": {
+   "name": "Upgraded Guard Post",
+   "faction": "castle",
+   "cost": {
+    "gold": 1000,
+    "ore": 5
+   },
+   "prerequisite": [
+    "Guard Post"
+   ],
+   "effect": "Recruit Halberdier",
+   "provides_creature": "halberdier",
+   "category": "dwelling",
+   "tier": 1,
+   "upgraded": true,
+   "group": "Dwellings"
+  },
+  "Archery Range": {
+   "name": "Archery Range",
+   "faction": "castle",
+   "cost": {
+    "gold": 1000,
+    "wood": 5,
+    "ore": 5
+   },
+   "prerequisite": [
+    "Guard Post"
+   ],
+   "effect": "Recruit Archer (+12/week)",
+   "provides_creature": "archer",
+   "category": "dwelling",
+   "tier": 2,
+   "group": "Dwellings"
+  },
+  "Upgraded Archery Range": {
+   "name": "Upgraded Archery Range",
+   "faction": "castle",
+   "cost": {
+    "gold": 1000,
+    "wood": 5
+   },
+   "prerequisite": [
+    "Archery Range"
+   ],
+   "effect": "Recruit Marksman",
+   "provides_creature": "marksman",
+   "category": "dwelling",
+   "tier": 2,
+   "upgraded": true,
+   "group": "Dwellings"
+  },
+  "Griffin Roost": {
+   "name": "Griffin Roost",
+   "faction": "castle",
+   "cost": {
+    "gold": 1500,
+    "ore": 5
+   },
+   "prerequisite": [
+    "Archery Range"
+   ],
+   "effect": "Recruit Griffin (+8/week)",
+   "provides_creature": "griffin",
+   "category": "dwelling",
+   "tier": 3,
+   "group": "Dwellings"
+  },
+  "Upgraded Griffin Roost": {
+   "name": "Upgraded Griffin Roost",
+   "faction": "castle",
+   "cost": {
+    "gold": 1500,
+    "ore": 5
+   },
+   "prerequisite": [
+    "Griffin Roost"
+   ],
+   "effect": "Recruit Royal Griffin",
+   "provides_creature": "royal_griffin",
+   "category": "dwelling",
+   "tier": 3,
+   "upgraded": true,
+   "group": "Dwellings"
+  },
+  "Sword Hall": {
+   "name": "Sword Hall",
+   "faction": "castle",
+   "cost": {
+    "gold": 2000,
+    "wood": 5,
+    "ore": 5
+   },
+   "prerequisite": [
+    "Griffin Roost"
+   ],
+   "effect": "Recruit Swordsman (+7/week)",
+   "provides_creature": "swordsman",
+   "category": "dwelling",
+   "tier": 4,
+   "group": "Dwellings"
+  },
+  "Upgraded Sword Hall": {
+   "name": "Upgraded Sword Hall",
+   "faction": "castle",
+   "cost": {
+    "gold": 2000,
+    "crystal": 5
+   },
+   "prerequisite": [
+    "Sword Hall"
+   ],
+   "effect": "Recruit Crusader",
+   "provides_creature": "crusader",
+   "category": "dwelling",
+   "tier": 4,
+   "upgraded": true,
+   "group": "Dwellings"
+  },
+  "Abbey": {
+   "name": "Abbey",
+   "faction": "castle",
+   "cost": {
+    "gold": 3000,
+    "wood": 5,
+    "ore": 5,
+    "mercury": 2,
+    "sulfur": 2,
+    "crystal": 2,
+    "gems": 2
+   },
+   "prerequisite": [
+    "Sword Hall",
+    "Mage Guild 1"
+   ],
+   "effect": "Recruit Monk (+5/week)",
+   "provides_creature": "monk",
+   "category": "dwelling",
+   "tier": 5,
+   "group": "Dwellings"
+  },
+  "Upgraded Abbey": {
+   "name": "Upgraded Abbey",
+   "faction": "castle",
+   "cost": {
+    "gold": 2000,
+    "wood": 5,
+    "ore": 5,
+    "mercury": 2,
+    "sulfur": 2,
+    "crystal": 2,
+    "gems": 2
+   },
+   "prerequisite": [
+    "Abbey"
+   ],
+   "effect": "Recruit Zealot",
+   "provides_creature": "zealot",
+   "category": "dwelling",
+   "tier": 5,
+   "upgraded": true,
+   "group": "Dwellings"
+  },
+  "Riding Stables": {
+   "name": "Riding Stables",
+   "faction": "castle",
+   "cost": {
+    "gold": 5000,
+    "wood": 10
+   },
+   "prerequisite": [
+    "Abbey"
+   ],
+   "effect": "Recruit Cavalier (+4/week)",
+   "provides_creature": "cavalier",
+   "category": "dwelling",
+   "tier": 6,
+   "group": "Dwellings"
+  },
+  "Upgraded Riding Stables": {
+   "name": "Upgraded Riding Stables",
+   "faction": "castle",
+   "cost": {
+    "gold": 3000,
+    "wood": 10
+   },
+   "prerequisite": [
+    "Riding Stables"
+   ],
+   "effect": "Recruit Champion",
+   "provides_creature": "champion",
+   "category": "dwelling",
+   "tier": 6,
+   "upgraded": true,
+   "group": "Dwellings"
+  },
+  "Celestial Gate": {
+   "name": "Celestial Gate",
+   "faction": "castle",
+   "cost": {
+    "gold": 20000,
+    "ore": 20,
+    "mercury": 10,
+    "sulfur": 10,
+    "crystal": 10,
+    "gems": 10
+   },
+   "prerequisite": [
+    "Riding Stables",
+    "Citadel"
+   ],
+   "effect": "Recruit Angel (+1/week)",
+   "provides_creature": "angel",
+   "category": "dwelling",
+   "tier": 7,
+   "group": "Dwellings"
+  },
+  "Upgraded Celestial Gate": {
+   "name": "Upgraded Celestial Gate",
+   "faction": "castle",
+   "cost": {
+    "gold": 20000,
+    "ore": 20,
+    "mercury": 10,
+    "sulfur": 10,
+    "crystal": 10,
+    "gems": 10
+   },
+   "prerequisite": [
+    "Celestial Gate"
+   ],
+   "effect": "Recruit Archangel",
+   "provides_creature": "archangel",
+   "category": "dwelling",
+   "tier": 7,
+   "upgraded": true,
+   "group": "Dwellings"
+  }
+ },
+ "necropolis": {
+  "Bone Shrine": {
+   "name": "Bone Shrine",
+   "faction": "necropolis",
+   "cost": {
+    "gold": 500
+   },
+   "prerequisite": [],
+   "effect": "+500 gold per day",
+   "provides_creature": null,
+   "category": "income",
+   "income_gold": 500,
+   "hall_level": 1,
+   "group": "Income"
+  },
+  "Crypt Hall": {
+   "name": "Crypt Hall",
+   "faction": "necropolis",
+   "cost": {
+    "gold": 2500
+   },
+   "prerequisite": [
+    "Bone Shrine"
+   ],
+   "effect": "+1000 gold per day",
+   "provides_creature": null,
+   "category": "income",
+   "income_gold": 1000,
+   "hall_level": 2,
+   "group": "Income"
+  },
+  "Ossuary Hall": {
+   "name": "Ossuary Hall",
+   "faction": "necropolis",
+   "cost": {
+    "gold": 5000,
+    "wood": 5,
+    "ore": 5
+   },
+   "prerequisite": [
+    "Crypt Hall",
+    "Shadow Market"
+   ],
+   "effect": "+2000 gold per day",
+   "provides_creature": null,
+   "category": "income",
+   "income_gold": 2000,
+   "hall_level": 3,
+   "group": "Income"
+  },
+  "Necropolis Capitol": {
+   "name": "Necropolis Capitol",
+   "faction": "necropolis",
+   "cost": {
+    "gold": 10000,
+    "wood": 10,
+    "ore": 10
+   },
+   "prerequisite": [
+    "Ossuary Hall",
+    "Death Keep"
+   ],
+   "effect": "+4000 gold per day",
+   "provides_creature": null,
+   "category": "income",
+   "income_gold": 4000,
+   "hall_level": 4,
+   "group": "Income"
+  },
+  "Grave Fort": {
+   "name": "Grave Fort",
+   "faction": "necropolis",
+   "cost": {
+    "gold": 5000,
+    "wood": 20,
+    "ore": 20
+   },
+   "prerequisite": [],
+   "effect": "walls",
+   "provides_creature": null,
+   "category": "military",
+   "fort_level": 1,
+   "growth_bonus": 0,
+   "group": "Military"
+  },
+  "Bone Citadel": {
+   "name": "Bone Citadel",
+   "faction": "necropolis",
+   "cost": {
+    "gold": 2500,
+    "ore": 5
+   },
+   "prerequisite": [
+    "Grave Fort"
+   ],
+   "effect": "+50% creature growth, arrow tower",
+   "provides_creature": null,
+   "category": "military",
+   "fort_level": 2,
+   "growth_bonus": 50,
+   "group": "Military"
+  },
+  "Death Keep": {
+   "name": "Death Keep",
+   "faction": "necropolis",
+   "cost": {
+    "gold": 5000,
+    "wood": 10,
+    "ore": 10
+   },
+   "prerequisite": [
+    "Bone Citadel"
+   ],
+   "effect": "+100% creature growth, 3 arrow towers",
+   "provides_creature": null,
+   "category": "military",
+   "fort_level": 3,
+   "growth_bonus": 100,
+   "group": "Military"
+  },
+  "Necromancy Guild 1": {
+   "name": "Necromancy Guild 1",
+   "faction": "necropolis",
+   "cost": {
+    "gold": 2000,
+    "wood": 5,
+    "ore": 5
+   },
+   "prerequisite": [],
+   "effect": "Teaches level 1 spells",
+   "provides_creature": null,
+   "category": "magic",
+   "mage_level": 1,
+   "group": "Magic"
+  },
+  "Necromancy Guild 2": {
+   "name": "Necromancy Guild 2",
+   "faction": "necropolis",
+   "cost": {
+    "gold": 1000,
+    "wood": 5,
+    "ore": 5,
+    "mercury": 4,
+    "sulfur": 4,
+    "crystal": 4,
+    "gems": 4
+   },
+   "prerequisite": [
+    "Necromancy Guild 1"
+   ],
+   "effect": "Teaches level 2 spells",
+   "provides_creature": null,
+   "category": "magic",
+   "mage_level": 2,
+   "group": "Magic"
+  },
+  "Necromancy Guild 3": {
+   "name": "Necromancy Guild 3",
+   "faction": "necropolis",
+   "cost": {
+    "gold": 1000,
+    "wood": 5,
+    "ore": 5,
+    "mercury": 6,
+    "sulfur": 6,
+    "crystal": 6,
+    "gems": 6
+   },
+   "prerequisite": [
+    "Necromancy Guild 2"
+   ],
+   "effect": "Teaches level 3 spells",
+   "provides_creature": null,
+   "category": "magic",
+   "mage_level": 3,
+   "group": "Magic"
+  },
+  "Necromancy Guild 4": {
+   "name": "Necromancy Guild 4",
+   "faction": "necropolis",
+   "cost": {
+    "gold": 1000,
+    "wood": 5,
+    "ore": 5,
+    "mercury": 8,
+    "sulfur": 8,
+    "crystal": 8,
+    "gems": 8
+   },
+   "prerequisite": [
+    "Necromancy Guild 3"
+   ],
+   "effect": "Teaches level 4 spells",
+   "provides_creature": null,
+   "category": "magic",
+   "mage_level": 4,
+   "group": "Magic"
+  },
+  "Necromancy Guild 5": {
+   "name": "Necromancy Guild 5",
+   "faction": "necropolis",
+   "cost": {
+    "gold": 1000,
+    "wood": 5,
+    "ore": 5,
+    "mercury": 10,
+    "sulfur": 10,
+    "crystal": 10,
+    "gems": 10
+   },
+   "prerequisite": [
+    "Necromancy Guild 4"
+   ],
+   "effect": "Teaches level 5 spells",
+   "provides_creature": null,
+   "category": "magic",
+   "mage_level": 5,
+   "group": "Magic"
+  },
+  "Bone Forge": {
+   "name": "Bone Forge",
+   "faction": "necropolis",
+   "cost": {
+    "gold": 1000,
+    "ore": 5
+   },
+   "prerequisite": [],
+   "effect": "Buy war machines",
+   "provides_creature": null,
+   "category": "military",
+   "group": "Special"
+  },
+  "Tomb Tavern": {
+   "name": "Tomb Tavern",
+   "faction": "necropolis",
+   "cost": {
+    "gold": 500,
+    "wood": 5
+   },
+   "prerequisite": [],
+   "effect": "Morale +1 in defense, hire heroes",
+   "provides_creature": null,
+   "category": "special",
+   "morale": 1,
+   "group": "Special"
+  },
+  "Shadow Market": {
+   "name": "Shadow Market",
+   "faction": "necropolis",
+   "cost": {
+    "gold": 500,
+    "wood": 5
+   },
+   "prerequisite": [],
+   "effect": "Trade resources",
+   "provides_creature": null,
+   "category": "special",
+   "group": "Income"
+  },
+  "Sulfur Pit": {
+   "name": "Sulfur Pit",
+   "faction": "necropolis",
+   "cost": {
+    "gold": 5000,
+    "ore": 5
+   },
+   "prerequisite": [
+    "Shadow Market"
+   ],
+   "effect": "+1 sulfur per day",
+   "provides_creature": null,
+   "category": "income",
+   "income_res": {
+    "sulfur": 1
+   },
+   "group": "Income"
+  },
+  "Undead Transformer": {
+   "name": "Undead Transformer",
+   "faction": "necropolis",
+   "cost": {
+    "gold": 2500,
+    "wood": 5,
+    "ore": 5
+   },
+   "prerequisite": [
+    "Necromancy Guild 1"
+   ],
+   "effect": "Converts living troops to skeletons after combat",
+   "provides_creature": null,
+   "category": "special",
+   "group": "Special"
+  },
+  "Black Harbor": {
+   "name": "Black Harbor",
+   "faction": "necropolis",
+   "cost": {
+    "gold": 2000,
+    "wood": 20
+   },
+   "prerequisite": [],
+   "effect": "Build ships (requires water adjacent to town)",
+   "provides_creature": null,
+   "category": "special",
+   "requires_water": true,
+   "group": "Special"
+  },
+  "Cursed Barracks": {
+   "name": "Cursed Barracks",
+   "faction": "necropolis",
+   "cost": {
+    "gold": 1000,
+    "ore": 5
+   },
+   "prerequisite": [
+    "Grave Fort"
+   ],
+   "effect": "Recruit Skeleton (+20/week)",
+   "provides_creature": "skeleton",
+   "category": "dwelling",
+   "tier": 1,
+   "group": "Dwellings"
+  },
+  "Upgraded Cursed Barracks": {
+   "name": "Upgraded Cursed Barracks",
+   "faction": "necropolis",
+   "cost": {
+    "gold": 1000,
+    "ore": 5
+   },
+   "prerequisite": [
+    "Cursed Barracks"
+   ],
+   "effect": "Recruit Skeleton Warrior",
+   "provides_creature": "skeleton_warrior",
+   "category": "dwelling",
+   "tier": 1,
+   "upgraded": true,
+   "group": "Dwellings"
+  },
+  "Grave Yard": {
+   "name": "Grave Yard",
+   "faction": "necropolis",
+   "cost": {
+    "gold": 1000,
+    "wood": 5,
+    "ore": 5
+   },
+   "prerequisite": [
+    "Cursed Barracks"
+   ],
+   "effect": "Recruit Walking Dead (+15/week)",
+   "provides_creature": "walking_dead",
+   "category": "dwelling",
+   "tier": 2,
+   "group": "Dwellings"
+  },
+  "Upgraded Grave Yard": {
+   "name": "Upgraded Grave Yard",
+   "faction": "necropolis",
+   "cost": {
+    "gold": 1000,
+    "wood": 5
+   },
+   "prerequisite": [
+    "Grave Yard"
+   ],
+   "effect": "Recruit Zombie",
+   "provides_creature": "zombie",
+   "category": "dwelling",
+   "tier": 2,
+   "upgraded": true,
+   "group": "Dwellings"
+  },
+  "Haunted Tomb": {
+   "name": "Haunted Tomb",
+   "faction": "necropolis",
+   "cost": {
+    "gold": 1500,
+    "ore": 5
+   },
+   "prerequisite": [
+    "Grave Yard"
+   ],
+   "effect": "Recruit Wight (+9/week)",
+   "provides_creature": "wight",
+   "category": "dwelling",
+   "tier": 3,
+   "group": "Dwellings"
+  },
+  "Upgraded Haunted Tomb": {
+   "name": "Upgraded Haunted Tomb",
+   "faction": "necropolis",
+   "cost": {
+    "gold": 1500,
+    "ore": 5
+   },
+   "prerequisite": [
+    "Haunted Tomb"
+   ],
+   "effect": "Recruit Wraith",
+   "provides_creature": "wraith",
+   "category": "dwelling",
+   "tier": 3,
+   "upgraded": true,
+   "group": "Dwellings"
+  },
+  "Blood Crypt": {
+   "name": "Blood Crypt",
+   "faction": "necropolis",
+   "cost": {
+    "gold": 2000,
+    "wood": 5,
+    "ore": 5
+   },
+   "prerequisite": [
+    "Haunted Tomb"
+   ],
+   "effect": "Recruit Vampire (+6/week)",
+   "provides_creature": "vampire",
+   "category": "dwelling",
+   "tier": 4,
+   "group": "Dwellings"
+  },
+  "Upgraded Blood Crypt": {
+   "name": "Upgraded Blood Crypt",
+   "faction": "necropolis",
+   "cost": {
+    "gold": 2000,
+    "crystal": 5
+   },
+   "prerequisite": [
+    "Blood Crypt"
+   ],
+   "effect": "Recruit Vampire Lord",
+   "provides_creature": "vampire_lord",
+   "category": "dwelling",
+   "tier": 4,
+   "upgraded": true,
+   "group": "Dwellings"
+  },
+  "Dark Spire": {
+   "name": "Dark Spire",
+   "faction": "necropolis",
+   "cost": {
+    "gold": 3000,
+    "wood": 5,
+    "ore": 5,
+    "mercury": 2,
+    "sulfur": 2,
+    "crystal": 2,
+    "gems": 2
+   },
+   "prerequisite": [
+    "Blood Crypt",
+    "Necromancy Guild 1"
+   ],
+   "effect": "Recruit Lich (+4/week)",
+   "provides_creature": "lich",
+   "category": "dwelling",
+   "tier": 5,
+   "group": "Dwellings"
+  },
+  "Upgraded Dark Spire": {
+   "name": "Upgraded Dark Spire",
+   "faction": "necropolis",
+   "cost": {
+    "gold": 2000,
+    "wood": 5,
+    "ore": 5,
+    "mercury": 2,
+    "sulfur": 2,
+    "crystal": 2,
+    "gems": 2
+   },
+   "prerequisite": [
+    "Dark Spire"
+   ],
+   "effect": "Recruit Power Lich",
+   "provides_creature": "power_lich",
+   "category": "dwelling",
+   "tier": 5,
+   "upgraded": true,
+   "group": "Dwellings"
+  },
+  "Black Stables": {
+   "name": "Black Stables",
+   "faction": "necropolis",
+   "cost": {
+    "gold": 5000,
+    "wood": 10
+   },
+   "prerequisite": [
+    "Dark Spire"
+   ],
+   "effect": "Recruit Black Knight (+3/week)",
+   "provides_creature": "black_knight",
+   "category": "dwelling",
+   "tier": 6,
+   "group": "Dwellings"
+  },
+  "Upgraded Black Stables": {
+   "name": "Upgraded Black Stables",
+   "faction": "necropolis",
+   "cost": {
+    "gold": 3000,
+    "wood": 10
+   },
+   "prerequisite": [
+    "Black Stables"
+   ],
+   "effect": "Recruit Dread Knight",
+   "provides_creature": "dread_knight",
+   "category": "dwelling",
+   "tier": 6,
+   "upgraded": true,
+   "group": "Dwellings"
+  },
+  "Dragon Ossuary": {
+   "name": "Dragon Ossuary",
+   "faction": "necropolis",
+   "cost": {
+    "gold": 20000,
+    "ore": 20,
+    "mercury": 10,
+    "sulfur": 10,
+    "crystal": 10,
+    "gems": 10
+   },
+   "prerequisite": [
+    "Black Stables",
+    "Bone Citadel"
+   ],
+   "effect": "Recruit Bone Dragon (+2/week)",
+   "provides_creature": "bone_dragon",
+   "category": "dwelling",
+   "tier": 7,
+   "group": "Dwellings"
+  },
+  "Upgraded Dragon Ossuary": {
+   "name": "Upgraded Dragon Ossuary",
+   "faction": "necropolis",
+   "cost": {
+    "gold": 20000,
+    "ore": 20,
+    "mercury": 10,
+    "sulfur": 10,
+    "crystal": 10,
+    "gems": 10
+   },
+   "prerequisite": [
+    "Dragon Ossuary"
+   ],
+   "effect": "Recruit Ghost Dragon",
+   "provides_creature": "ghost_dragon",
+   "category": "dwelling",
+   "tier": 7,
+   "upgraded": true,
+   "group": "Dwellings"
+  }
+ }
+}
